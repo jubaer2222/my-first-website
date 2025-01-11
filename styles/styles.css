@@ -44,6 +44,9 @@
     padding: 15px 30px 15px 30px;
 
 }
+.navbar button:hover{
+    background: #a89393;
+}
 
 /* banner */
 .banner-main {
@@ -95,7 +98,12 @@
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
     margin-top: 24px;
+} 
+.banner .banner-text .banner-btn:hover{
+    color: rgb(8, 1, 1);
+    background-color: #649c77;
 }
+
 
 /*  */
 /* the vision of future */
@@ -300,7 +308,7 @@
     color: rgb(255, 255, 255);
     border: none;
     padding: 13px 26px 13px 26px;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 .satellite .satellite-button:hover{
     background: rgb(3, 70, 54);
@@ -344,8 +352,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 30px;
-    /* padding-left: 90px; */
-    /* padding-right: 90px; */
+    
 }
 
 .donate-all .taka-card {
@@ -521,6 +528,9 @@
     letter-spacing: 0%;
     text-align: left;
 
+}
+.subscribe .subscribe-btn:hover{
+    background: rgb(10, 88, 69);
 }
 
 .newsletter .newsletter-main .newsletter-text .spam {
