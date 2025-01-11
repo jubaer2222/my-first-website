@@ -1,0 +1,512 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+/* navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    margin-top: 31px;
+}
+
+.navbar h3 {
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.navbar button {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+
+}
+
+/* banner */
+.banner-main {
+    margin-bottom: 80px;
+}
+
+.banner-main .banner {
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    gap: 64px;
+    height: 440px;
+}
+
+.banner .banner-text h3 {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.banner .banner-text p {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner .banner-text .banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    margin-top: 24px;
+}
+
+/*  */
+/* the vision of future */
+.future {
+    margin-top: 80px;
+    margin-bottom: 32px;
+    /* height: 350px; */
+}
+
+.future-main h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.future-main p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.future-main .future-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px
+}
+
+.future-main .future-cards h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.future-main .future-cards p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.future-main .future-cards .all-card {
+    padding: 25px;
+}
+
+.future-main .future-cards .blue-card {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.future-main .future-cards .green-card {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.future-main .future-cards .orange-card {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.future-main .future-cards .future-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.future-main .future-cards .blue-btn {
+    background: rgb(84, 144, 245);
+}
+
+.future-main .future-cards .green-btn {
+    background: rgb(9, 161, 92);
+}
+
+.future-main .future-cards .orange-btn {
+    background: rgb(255, 194, 57);
+}
+
+
+/* Statement */
+.statement {
+    margin-bottom: 80px;
+    background: rgb(252, 253, 255);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding: 40px 20px 40px 20px;
+    border-radius: 7px;
+}
+
+.statement p {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.statement h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+/* recent news */
+.news-text h2 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.news-text p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.news-main {
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(252, 253, 255);
+    padding: 48px;
+}
+
+.satellite-img img {
+    border-radius: 24px;
+}
+
+.news-main .satellite-text {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.satellite .satellite-time {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.satellite .satellite-time p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.satellite .satellite-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.satellite .satellite-button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 13px 26px 13px 26px;
+    cursor: pointer;
+}
+
+/* Image 2 */
+.news-main-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(252, 253, 255);
+    padding: 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* Donate now */
+.donate-all {
+    text-align: center;
+}
+
+.donate-all h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-all p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+    /* padding-left: 90px; */
+    /* padding-right: 90px; */
+}
+
+.donate-all .taka-card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.donate-all .taka-card .all-taka {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(252, 253, 255);
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.donate-all .donate-input {
+    box-sizing: border-box;
+    background: rgb(252, 253, 255);
+    padding: 20px 40px 20px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 30px;
+
+
+}
+
+.donate-all .done-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* Subscribe Newsletter */
+.newsletter {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.newsletter-main {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    text-align: center;
+    height: 314px;
+
+}
+
+.newsletter .newsletter-main .newsletter-text h3 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.newsletter .newsletter-main .newsletter-text p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    margin-bottom: 24px;
+
+}
+
+.subscribe .subscribe-input {
+    border: none;
+    position: static;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding: 18px 40px 18px 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+
+
+}
+
+.subscribe .subscribe-btn {
+
+    position: static;
+    width: 200px;
+    height: 65px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.newsletter .newsletter-main .newsletter-text .spam {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
