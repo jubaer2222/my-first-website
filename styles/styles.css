@@ -345,6 +345,9 @@
 }
 
 /* Donate now */
+.donate{
+    margin-top: 80px;
+}
 .donate-all {
     text-align: center;
 }
