@@ -197,18 +197,28 @@
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .future-main .future-cards .blue-btn {
     background: rgb(84, 144, 245);
 }
+.future-main .future-cards .blue-btn:hover {
+    background: rgb(55, 112, 211);
+}
 
 .future-main .future-cards .green-btn {
     background: rgb(9, 161, 92);
 }
+.future-main .future-cards .green-btn:hover {
+    background: rgb(6, 114, 65);
+}
 
 .future-main .future-cards .orange-btn {
     background: rgb(255, 194, 57);
+}
+.future-main .future-cards .orange-btn:hover {
+    background: rgb(189, 142, 34);
 }
 
 
