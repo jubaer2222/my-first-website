@@ -141,6 +141,13 @@
     align-items: center;
     gap: 20px
 }
+.future-main .future-cards .blue-card{
+    
+}
+.future-main .future-cards .all-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
 
 .future-main .future-cards h4 {
     color: rgba(14, 14, 14, 0.8);
