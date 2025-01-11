@@ -300,8 +300,12 @@
     color: rgb(255, 255, 255);
     border: none;
     padding: 13px 26px 13px 26px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
+.satellite .satellite-button:hover{
+    background: rgb(3, 70, 54);
+} 
+
 
 /* Image 2 */
 .news-main-2 {
@@ -367,7 +371,22 @@
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
 }
+
+.donate-all .taka-card .one-hun:hover{
+    background: rgb(198, 228, 214);
+}
+.donate-all .taka-card .two-hun:hover{
+    background: rgb(198, 228, 214);
+}
+.donate-all .taka-card .five-hun:hover{
+    background: rgb(198, 228, 214);
+}
+.donate-all .taka-card .ten-hun:hover{
+    background: rgb(198, 228, 214);
+}
+
 
 .donate-all .donate-input {
     box-sizing: border-box;
@@ -399,6 +418,9 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+}
+.donate-all .done-btn:hover{
+    background-color:rgb(5, 80, 61) ;
 }
 
 
